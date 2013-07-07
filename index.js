@@ -1,5 +1,6 @@
 module.exports = loop
 
 function loop(value, divisor) {
-  return ((value % divisor) + divisor) % divisor
+  var n = value % divisor;
+  return n < 0 ? (divisor + n) : n
 }

@@ -3,6 +3,11 @@
 JavaScript's modulo operator (`%`) doesn't handle negative numbers nicely -
 here's something general to work around the issue.
 
+Benchmarks on jsperf can be found
+[here](http://jsperf.com/modulo-for-negative-numbers). Thanks to
+[shama](http://github.com/shama) and
+[mikolalysenko](http://github.com/mikolalysenko) for finding a faster method.
+
 ## Installation ##
 
 ``` bash
