@@ -1,6 +1,6 @@
 {
   "name": "mod-loop",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A workaround for using negative numbers with JS's modulo operator",
   "main": "index.js",
   "scripts": {
