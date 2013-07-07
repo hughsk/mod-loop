@@ -1,0 +1,24 @@
+{
+  "name": "mod-loop",
+  "version": "0.0.0",
+  "description": "A workaround for using negative numbers with JS's modulo operator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/mod-loop.git"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "readmeFilename": "README.md",
+  "keywords": [
+    "modulus",
+    "negative",
+    "numbers"
+  ]
+}
